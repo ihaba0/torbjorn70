@@ -12,10 +12,7 @@ html {
 body {
     background-color:red;
 }
-iframe {
-    background-color: green;
-    border-radius: 30px;
-}
+
 td.content {
     border-style: dotted;
     border-width: 5px;
