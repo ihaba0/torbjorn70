@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #F5EFE6;
+    --secondary-color: #E8DFCA;
+    --tertiary-color: #6D94C5;
+    --highlight-color: #CBDCEB;
+}
+
+html {
+    color: var(--tertiary-color);
+}
+
+body {
+    background-color:red;
+}
+iframe {
+    background-color: green;
+    border-radius: 30px;
+}
+td.content {
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: white;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+}
