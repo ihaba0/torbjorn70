@@ -8,17 +8,23 @@
 html {
     color: black;
     font-family:  sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
+    margin:0;
 }
 
 h2 {
+    font-size: 26;
     text-align: center;
+    margin:0;
+    margin-bottom: 16px;
 }
 
 p {
+    font-size: 20px;
     text-align: center;
     margin:0;
 }
@@ -31,20 +37,27 @@ body {
 .container {
     max-width: 700px;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 24px 24px;
     background-color: var(--primary-color);
     border-radius: 16px;
 }
 
+.header {
+    padding: 16px 0;   
+}
+
 .block{
+    min-height: 100px;
+    padding: 16px 0;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .link-button {
     padding: 16px 24px;
-    margin-bottom: 22px;
     border-radius: 3px;
     border-radius: 16px;
     color: black;
