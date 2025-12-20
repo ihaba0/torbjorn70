@@ -1,4 +1,13 @@
-:root {
+@media (width > 600px) {
+    body{
+        padding: 40px !important; 
+    }
+    .container{
+        padding: 24px 24px !important;
+    }
+  }
+
+  :root {
     --primary-color: #F5EFE6;
     --secondary-color: #E8DFCA;
     --tertiary-color: #6D94C5;
@@ -30,14 +39,14 @@ p {
 }
 
 body {
-    padding: 40px; 
+    padding: 8px; 
     background-color:var(--secondary-color);
 }
 
 .container {
     max-width: 700px;
     margin: 0 auto;
-    padding: 24px 24px;
+    padding: 8px 24px;
     background-color: var(--primary-color);
     border-radius: 16px;
 }
